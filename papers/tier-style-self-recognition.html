@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tier Style Is Legible but Not Self-Known | David Bookstaber</title>
+    <meta name="description" content="A preregistered behavioral study of whether Claude 4 model tiers can recognize their own writing: tier style is externally legible to neutral judges, but being the author confers no advantage.">
+    <meta name="citation_title" content="Tier Style Is Legible but Not Self-Known: A Behavioral Boundary on Within-Family Self-Recognition in Claude 4">
+    <meta name="citation_author" content="Bookstaber, David">
+    <meta name="citation_publication_date" content="2026/06/17">
+    <meta name="citation_online_date" content="2026/08/23">
+    <meta name="citation_pdf_url" content="https://davidbookstaber.com/papers/bookstaber-2026-tier-style.pdf">
+    <meta name="citation_abstract_html_url" content="https://davidbookstaber.com/papers/tier-style-self-recognition.html">
+    <meta name="citation_technical_report_institution" content="Independent Researcher">
+    <link rel="canonical" href="https://davidbookstaber.com/papers/tier-style-self-recognition.html">
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; }
+        header { border-bottom: 2px solid #eaeaea; padding-bottom: 20px; margin-bottom: 30px; }
+        h1 { margin: 0 0 6px 0; color: #111; font-size: 1.5em; }
+        nav a { margin-right: 15px; text-decoration: none; color: #0066cc; font-weight: bold; }
+        nav a:hover { text-decoration: underline; }
+        .meta { color: #666; margin-bottom: 20px; }
+        .links a { margin-right: 18px; color: #0066cc; text-decoration: none; font-weight: 600; }
+        .links a:hover { text-decoration: underline; }
+        h2 { margin-top: 28px; font-size: 1.15em; }
+        footer { margin-top: 50px; border-top: 1px solid #eaeaea; padding-top: 20px; font-size: 0.9em; color: #666; }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/index.html">Home</a>
+            <a href="/finance.html">Quantitative Finance</a>
+            <a href="/software.html">Software Engineering</a>
+            <a href="/research.html">Research</a>
+        </nav>
+    </header>
+
+    <h1>Tier Style Is Legible but Not Self-Known: A Behavioral Boundary on Within-Family Self-Recognition in Claude&nbsp;4</h1>
+    <div class="meta">David Bookstaber &middot; Independent Researcher &middot; 2026 &middot; preprint</div>
+
+    <p class="links">
+        <a href="/papers/bookstaber-2026-tier-style.pdf">PDF</a>
+        <a href="https://github.com/dbookstaber/claude-tier-self-recognition">Code &amp; Data</a>
+        <a href="https://doi.org/10.5281/zenodo.20724958">Data DOI</a>
+        <a href="https://osf.io/brdt8">Preregistration</a>
+        <a href="https://www.researchgate.net/publication/407437393_Tier_Style_Is_Legible_but_Not_Self-Known_A_Behavioral_Boundary_on_Within-Family_Self-Recognition_in_Claude_4">ResearchGate</a>
+    </p>
+
+    <h2>Abstract</h2>
+    <p>We ask a narrow question that the self-recognition literature has not isolated: when two capability
+    tiers of the <em>same</em> model family (Claude 4 &mdash; Opus 4.8, Sonnet 4.6, Haiku 4.5) each write
+    open-ended prose, can a tier behaviorally recognize its own writing among a sibling's, beyond what a
+    neutral third-party judge of equal or lower compute achieves on the identical texts? Across
+    forced-choice experiments with two independent confound controls, framing variation, a
+    disagreement-conditioned reanalysis, and a raw-API replication, we report a four-part result.
+    (1)&nbsp;Tier style is externally legible, and the legibility is capability-graded: in the agent
+    harness, neutral judges discriminate authorship at Opus 0.91 &asymp; Sonnet 0.90 and Haiku 0.63
+    (chance 0.50); off-harness, distant pairs remain discriminable while the closest pair's legibility
+    falls to chance in a small replication. Yet being the author confers no advantage &mdash; under both
+    controls, the self-minus-neutral advantage is negative or brackets zero for every tier. (2)&nbsp;The
+    models run inside an agent harness that <em>amplifies</em> tier-stylistic distinctiveness in how the
+    models write, not in how they judge. (3)&nbsp;Attribution runs on stereotype: a stronger model's
+    length-matched caricature of a weaker tier is judged more authentic than the genuine article, even by
+    the author. (4)&nbsp;Stronger tiers better know when they are right: identity-judgment calibration
+    tracks capability, with the weakest tier mildly anti-calibrated. Together these place a behavioral
+    boundary on emergent-introspection claims: privileged access, even where it is real for this family,
+    does not extend to recognizing one's own prose authorship among tiers. Our study is deliberately
+    narrow: a single behavioral axis (no token logprobs) in a single model family and generation.</p>
+
+    <h2>Materials</h2>
+    <p>The study was preregistered on the Open Science Framework
+    (<a href="https://osf.io/brdt8">osf.io/brdt8</a>, <a href="https://osf.io/5azq8">osf.io/5azq8</a>).
+    All judgment records, generation and judging scripts, and analysis code are public at
+    <a href="https://github.com/dbookstaber/claude-tier-self-recognition">github.com/dbookstaber/claude-tier-self-recognition</a>
+    and archived at <a href="https://doi.org/10.5281/zenodo.20724958">doi.org/10.5281/zenodo.20724958</a>.</p>
+
+    <footer>
+        &copy; 2026 David Bookstaber &middot; <a href="mailto:david@bookstaber.com">david@bookstaber.com</a>
+    </footer>
+</body>
+</html>
